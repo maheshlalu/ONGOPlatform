@@ -91,7 +91,7 @@ static NSString * const reuseIdentifier = @"ODNewsCell";
     
     
 #if DEBUG
-    [OGWorkSpace sharedWorkspace].mallId = @"3169";
+    [OGWorkSpace sharedWorkspace].mallId = @"3";
     isOdishaLanguage = false;
     
     [self loadDatas];
@@ -410,7 +410,7 @@ static NSString * const reuseIdentifier = @"ODNewsCell";
     navController.titleLabel.font  = [UIFont fontWithName:@"Roboto-Regular" size:14.0f];
 
     [self dismissViewControllerAnimated:false completion:nil];
-    [OGWorkSpace sharedWorkspace].mallId = @"3169";
+    [OGWorkSpace sharedWorkspace].mallId = @"3";
     isOdishaLanguage = false;
     [[NSUserDefaults standardUserDefaults] setValue:@"English" forKey:@"Language"];
     [self loadDatas];
@@ -424,7 +424,7 @@ static NSString * const reuseIdentifier = @"ODNewsCell";
 
     [navController.languageBtn setTitle:@"English" forState:UIControlStateNormal];
     [self dismissViewControllerAnimated:false completion:nil];
-    [OGWorkSpace sharedWorkspace].mallId = @"3220";
+    [OGWorkSpace sharedWorkspace].mallId = @"5";
     [[NSUserDefaults standardUserDefaults] setValue:@"odisha" forKey:@"Language"];
     isOdishaLanguage = true;
     

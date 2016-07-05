@@ -11,7 +11,7 @@
 @implementation OGOdishaSHKConfigurator
 
 - (NSString*)appURL {
-    return @"http://odishanews360.com/odisha/index?mallId=3169";
+    return @"http://odishanews360.com/odisha/index?mallId=3";
 }
 
 - (NSString*)sharersPlistName {

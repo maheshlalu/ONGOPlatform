@@ -8,7 +8,7 @@
 
 #import "OGDataServices.h"
 
-static NSString * const OGDataServicesAPIBaseURLString = @"http://storeongo.com:8081/";
+static NSString * const OGDataServicesAPIBaseURLString = @"http://52.74.52.134:8081/";
 
 @implementation OGDataServices
 
